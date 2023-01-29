@@ -21,8 +21,7 @@ export default defineConfig({
     ],
     ['link', { rel: 'stylesheet', href: 'https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.css'}],
     ['script', { type: 'text/javascript', src: 'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.js'}],
-    ['script', { type: 'text/javascript', src: '/js/main.u.js' }],
-    ['script', { type: 'text/javascript', src: 'https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/contrib/auto-render.min.js',onload:'renderMathInElement(document.body,katex_config)'}]
+    ['script', { type: 'text/javascript', src: '/js/main.u.js' }]
   ],
   themeConfig: {
     logo: "/favicon.ico",
