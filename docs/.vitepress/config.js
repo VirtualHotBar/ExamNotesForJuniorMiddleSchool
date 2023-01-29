@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-import markdownItKatex from 'markdown-it-katex'
 import sidebar from "./sidebar";
 
 
