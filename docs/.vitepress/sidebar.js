@@ -14,6 +14,7 @@ export default [
     items: [
       { text: "数与式的基本概念", link: "/math/p1", },
       { text: "数与式的化简求值", link: "/math/p2", },
+      { text: "二次函数相关知识点汇总", link: "/math/p3", },
     ],
   }
 ];
