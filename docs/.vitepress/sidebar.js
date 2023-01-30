@@ -15,6 +15,8 @@ export default [
       { text: "数与式的基本概念", link: "/math/p1", },
       { text: "数与式的化简求值", link: "/math/p2", },
       { text: "二次函数相关知识点汇总", link: "/math/p3", },
+      { text: "绝对值的意义与解题方法", link: "/math/p4", },
+      { text: "常用乘法公式      ", link: "/math/p5", },
     ],
   }
 ];
