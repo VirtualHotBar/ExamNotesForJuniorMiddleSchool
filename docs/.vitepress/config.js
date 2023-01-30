@@ -108,7 +108,7 @@ export default defineConfig({
       },
     ],
     ['script', { type: 'text/javascript', src: '/js/main.u.js' }],
-    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css', crossorigin: '' }]
+    ['link', { rel: 'stylesheet', href: 'https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.5.1/katex.min.css', crossorigin: '' }]
 
   ],
   themeConfig: {
