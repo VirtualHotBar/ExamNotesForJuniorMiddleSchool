@@ -15,4 +15,4 @@ hero:
       link: /started
     - theme: alt
       text: 添砖加瓦
-      link: https://github.com/VirtualHotBar/HotPEToolBox
+      link: https://github.com/VirtualHotBar/ExamNotesForJuniorMiddleSchool/tree/main/docs

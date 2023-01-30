@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 import sidebar from "./sidebar";
-import mathjax3 from 'markdown-it-mathjax3';
+import markdownItKatex from 'markdown-it-katex'
 
 const customElements = [
   'math',
@@ -87,10 +87,8 @@ const customElements = [
   'maction',
   'semantics',
   'annotation',
-  'annotation-xml',
-  'mjx-container',
-  'mjx-assistive-mml',
-];
+  'annotation-xml'
+]
 
 export default defineConfig({
   lang: "zh-CN",
@@ -110,6 +108,7 @@ export default defineConfig({
       },
     ],
     ['script', { type: 'text/javascript', src: '/js/main.u.js' }],
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css', crossorigin: '' }]
 
   ],
   themeConfig: {
@@ -141,20 +140,21 @@ export default defineConfig({
   },
   
   
+
   markdown: {
     config: (md) => {
-      md.use(mathjax3);
-    },
+      md.use(markdownItKatex)
+    }
   },
+  // 由于vitepress编译生成静态html文件时，无法识别插件生成的特殊标签，故需在编译时进行处理，将特殊标签定位自定义标签，防止编译报错
   vue: {
     template: {
       compilerOptions: {
-        isCustomElement: (tag) => customElements.includes(tag),
-      },
-    },
-  },
+        isCustomElement: (tag) => customElements.includes(tag)
+      }
+    }
+  }
 
-  
 });
 
 
