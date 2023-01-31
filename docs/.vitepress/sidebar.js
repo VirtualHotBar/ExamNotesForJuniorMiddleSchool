@@ -12,6 +12,7 @@ export default [
   {
     text: "数学",
     items: [
+      { text: "泸州往年中考数学试卷", link: "/math/0-TestPaper", },
       { text: "数与式的基本概念", link: "/math/p1", },
       { text: "数与式的化简求值", link: "/math/p2", },
       { text: "二次函数相关知识点汇总", link: "/math/p3", },
