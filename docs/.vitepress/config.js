@@ -92,8 +92,8 @@ const customElements = [
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "中考逆袭笔记",
-  description: "以极致的效率逆袭中考",
+  title: "中考摆烂笔记",
+  description: "以极致的效率考进职高",
   lastUpdated: true,
   base: "/",
   head: [
