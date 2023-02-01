@@ -1,13 +1,13 @@
 ---
 layout: home
 
-title: 中考逆袭笔记
-titleTemplate: 以极致的效率逆袭中考
+title: 中考摆烂笔记
+titleTemplate: 以极致的效率考进职高
 sidebar: false
 
 hero:
-  name: 中考逆袭笔记
-  text: 以极致的效率逆袭中考
+  name: 中考摆烂笔记
+  text: 以极致的效率考进职高
   tagline: 
   actions:
     - theme: brand
