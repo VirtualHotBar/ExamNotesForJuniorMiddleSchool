@@ -17,7 +17,10 @@ export default [
       { text: "数与式的化简求值", link: "/math/p2", },
       { text: "二次函数相关知识点汇总", link: "/math/p3", },
       { text: "绝对值的意义与解题方法", link: "/math/p4", },
-      { text: "常用乘法公式      ", link: "/math/p5", },
+      { text: "常用乘法公式", link: "/math/p5", },
+      { text: "配方的进阶技巧", link: "/math/p6", },
+      { text: "解方程与方程组", link: "/math/p7", },
+      { text: "不等式和不等式组", link: "/math/p8", },
     ],
   }
 ];
