@@ -22,6 +22,13 @@ export default [
       { text: "解方程与方程组", link: "/math/p7", },
       { text: "不等式和不等式组", link: "/math/p8", },
     ],
+  },  {
+    text: "英语",
+    items: [
+      { text: "泸州往年中考英语试卷", link: "/English/TestPaper", },
+      { text: "泸州往年中英语作文", link: "/English/exam_composition", },
+
+    ],
   }
 ];
 

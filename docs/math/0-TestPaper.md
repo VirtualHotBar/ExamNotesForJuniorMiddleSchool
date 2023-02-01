@@ -1,6 +1,6 @@
 # 往年数学中考试卷(泸州)
 
-**包涵泸州[2022](/math/0-TestPaper.html#_2022)、[2021](/math/0-TestPaper.html#_2021)、[2020](/math/0-TestPaper.html#_2020)、[2019](/math/0-TestPaper.html#_2019)、[2018](/math/0-TestPaper.html#_2018)、[2017](/math/0-TestPaper.html#_2017)年的中考数学试卷**
+**包含泸州[2022](/math/0-TestPaper.html#_2022)、[2021](/math/0-TestPaper.html#_2021)、[2020](/math/0-TestPaper.html#_2020)、[2019](/math/0-TestPaper.html#_2019)、[2018](/math/0-TestPaper.html#_2018)、[2017](/math/0-TestPaper.html#_2017)年的中考数学试卷**
 
 ## 2022
 
