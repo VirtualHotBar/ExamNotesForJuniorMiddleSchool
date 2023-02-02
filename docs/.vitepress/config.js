@@ -121,7 +121,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: "Released under the MIT License.",
+      message: "<a href='https://beian.miit.gov.cn/' target='_blank' class='class-link' rel='noopener'>蜀ICP备2023001640号-2</a>",
       copyright: "Copyright © 2023-present VirtualHotBar",
     },
     editLink: {
